@@ -1,0 +1,27 @@
+body{
+    max-height: 100vh;
+    background-image: url("./Quizletlogobig.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.btn{
+    height: fit-content;
+    width: fit-content;
+    padding: 15px;
+    border-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+                5px 5px 12px rgba(0,0,0,.16);
+    border:none;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    background-color:#eff0ff;
+}
+.btn:hover{
+    background-color:#74b9ff;
+}
